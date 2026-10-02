@@ -63,9 +63,9 @@
 			{/each}
 		</ul>
 
-		<div class="grid grid-cols-2 gap-3">
-			<button class="btn preset-tonal" onclick={() => index--} disabled={index === 0}>Назад</button>
-			<button class="btn preset-filled-primary-500" onclick={() => index++}>
+		<div class="bg-surface-50 dark:bg-surface-900 sticky bottom-0 grid grid-cols-2 gap-3 py-3">
+			<button class="btn btn-lg preset-tonal" onclick={() => index--} disabled={index === 0}>Назад</button>
+			<button class="btn btn-lg preset-filled-primary-500" onclick={() => index++}>
 				{index === list.length - 1 ? 'Завершить' : 'Далее'}
 			</button>
 		</div>

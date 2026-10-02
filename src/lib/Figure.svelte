@@ -48,7 +48,7 @@
 
 <svg
 	viewBox="0 0 200 200"
-	class="mx-auto w-full max-w-72"
+	class="mx-auto h-52 w-full"
 	aria-hidden="true"
 	fill="none"
 	stroke="currentColor"
@@ -67,11 +67,11 @@
 			<circle cy="14" r="9" stroke="none" />
 		</g>
 	{/if}
-	<path d={frames[0].near}>
-		<animate attributeName="d" values={values((f) => f.near)} {...anim} />
-	</path>
 	<circle r="10" cx={frames[0].head[0]} cy={frames[0].head[1]} fill="currentColor" stroke="none">
 		<animate attributeName="cx" values={values((f) => f.head[0].toFixed(1))} {...anim} />
 		<animate attributeName="cy" values={values((f) => f.head[1].toFixed(1))} {...anim} />
 	</circle>
+	<path d={frames[0].near}>
+		<animate attributeName="d" values={values((f) => f.near)} {...anim} />
+	</path>
 </svg>

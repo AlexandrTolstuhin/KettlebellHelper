@@ -21,7 +21,7 @@ export const programs: Program[] = [
 		id: 'beginner',
 		title: 'Начальная',
 		description:
-			'Для первых недель. Разминка и два круга из семи простых упражнений, около 20 минут. Когда станет легко, берите гирю тяжелее.',
+			'Для первых недель. Разминка и два круга из девяти простых упражнений, около 25 минут. Когда станет легко, берите гирю тяжелее.',
 		warmup: [
 			{ id: 'march', seconds: 45 },
 			{ id: 'hinge', reps: 10 },
@@ -32,6 +32,8 @@ export const programs: Program[] = [
 			{ id: 'goblet', reps: 8 },
 			{ id: 'row', reps: 8, perSide: true },
 			{ id: 'press', reps: 8, perSide: true },
+			{ id: 'curl', reps: 10 },
+			{ id: 'extension', reps: 10 },
 			{ id: 'bridge', reps: 12 },
 			{ id: 'plank', seconds: 20 },
 			{ id: 'carry', seconds: 30, perSide: true }
