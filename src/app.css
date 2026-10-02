@@ -1,0 +1,15 @@
+@import 'tailwindcss';
+
+@import '@skeletonlabs/skeleton';
+@import '@skeletonlabs/skeleton/optional/presets';
+@import '@skeletonlabs/skeleton/themes/wintry';
+
+body {
+	background-color: var(--color-surface-50);
+	color: var(--color-surface-950);
+	font-family: system-ui, sans-serif;
+	@variant dark {
+		background-color: var(--color-surface-900);
+		color: var(--color-surface-50);
+	}
+}

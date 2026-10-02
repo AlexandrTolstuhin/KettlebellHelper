@@ -1,0 +1,11 @@
+node_modules
+/.svelte-kit
+/build
+
+.DS_Store
+Thumbs.db
+
+.idea/
+.claude/
+
+vite.config.ts.timestamp-*
